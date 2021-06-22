@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 import { StepStates, ProgressStep, StepProgressProps, ReducerAction } from './models';
 
-export StepStates;
+export {StepStates} from './models';
 
 function stepsReducer(steps: ProgressStep[], action: ReducerAction): ProgressStep[] {
 
