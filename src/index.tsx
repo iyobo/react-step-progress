@@ -3,6 +3,8 @@ import styles from './styles.module.css';
 
 import { StepStates, ProgressStep, StepProgressProps, ReducerAction } from './models';
 
+export StepStates;
+
 function stepsReducer(steps: ProgressStep[], action: ReducerAction): ProgressStep[] {
 
   return steps.map(function (step, i) {
